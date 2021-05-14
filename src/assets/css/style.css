@@ -1,0 +1,10 @@
+/* link normalize.css */
+@import url(./normalize.css);
+
+/* link fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+
+*{
+  font-family: 'Roboto', sans-serif;
+}

@@ -58,6 +58,10 @@
   padding: 15px;
   background-color: #3fc380;
   border: none;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+
+>>>>>>> e40e871ed2842c87f139c3487605945545629571
 }
 </style>

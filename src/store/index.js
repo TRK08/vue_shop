@@ -32,7 +32,6 @@ export default new Vuex.Store({
     },
     DELETE_FROM_CART(state, index) {
       state.cart.splice(index, 1)
-<<<<<<< HEAD
     },
     QUANTITY_PLUS(state, index) {
       state.cart[index].quantity++
@@ -42,9 +41,6 @@ export default new Vuex.Store({
         state.cart[index].quantity--
       }
     },
-=======
-    }
->>>>>>> e40e871ed2842c87f139c3487605945545629571
 
   },
   actions: {
@@ -63,15 +59,12 @@ export default new Vuex.Store({
     },
     DELETE_FROM_CART( {commit}, index) {
       commit('DELETE_FROM_CART', index)
-<<<<<<< HEAD
     },
     QUANTITY_PLUS( {commit}, index ) {
       commit('QUANTITY_PLUS', index)
     },
     QUANTITY_MINUS( {commit}, index ) {
       commit('QUANTITY_MINUS', index)
-=======
->>>>>>> e40e871ed2842c87f139c3487605945545629571
     }
 
   },

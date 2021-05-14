@@ -54,14 +54,14 @@
   box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.2);
 }
 
+.catalog-item img {
+  width: 100%;
+}
+
 .catalog-item__btn {
   padding: 15px;
   background-color: #3fc380;
   border: none;
-<<<<<<< HEAD
   cursor: pointer;
-=======
-
->>>>>>> e40e871ed2842c87f139c3487605945545629571
 }
 </style>

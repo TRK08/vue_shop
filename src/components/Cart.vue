@@ -5,14 +5,10 @@
       :key="item.article"
       :cartItemData = item
       @deleteFromCart="deleteFromCart(index)"
-<<<<<<< HEAD
       @quantityPlus="quantityPlus(index)"
       @quantityMinus="quantityMinus(index)"
     />
     <div class="total">Total: {{cartTotal}} </div>
-=======
-    />
->>>>>>> e40e871ed2842c87f139c3487605945545629571
   </div>
 </template>
 
@@ -28,7 +24,6 @@ import CartItem from './CartItem.vue'
     computed: {
       ...mapGetters([
         'CART'
-<<<<<<< HEAD
       ]),
       cartTotal() {
         if(this.CART.length) {
@@ -64,25 +59,11 @@ import CartItem from './CartItem.vue'
         this.QUANTITY_MINUS(index)
       }
     }
-=======
-      ])
-    },
-    methods: {
-      ...mapActions([
-        'DELETE_FROM_CART'
-      ]),
-      deleteFromCart(index) {
-      this.DELETE_FROM_CART(index)
-    }
-
-    },
->>>>>>> e40e871ed2842c87f139c3487605945545629571
   }
 </script>
 
 <style scoped>
 .cart {
-<<<<<<< HEAD
   padding: 30px 0;
   margin-bottom: 120px;
 }
@@ -97,8 +78,5 @@ import CartItem from './CartItem.vue'
   height: 100px;
   color: #fff;
   background-color: #3fc380;
-=======
-  padding: 50px;
->>>>>>> e40e871ed2842c87f139c3487605945545629571
 }
 </style>

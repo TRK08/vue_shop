@@ -1,38 +1,38 @@
 {
   "products": [
     {
-      "image": "1.jpg",
-      "name": "T-shirt 1",
-      "price": 2100,
+      "image": "1.jpeg",
+      "name": "Adidas 1",
+      "price": 4500,
       "article": "T1"
     },
     {
-      "image": "2.jpg",
-      "name": "T-shirt 2",
-      "price": 3150,
+      "image": "2.jpeg",
+      "name": "Adidas 2",
+      "price": 8250,
       "article": "T2"
     },
     {
-      "image": "3.jpg",
-      "name": "T-shirt 3",
-      "price": 4200,
+      "image": "3.jpeg",
+      "name": "Adidas 3",
+      "price": 4850,
       "article": "T3"
     },
     {
-      "image": "4.jpg",
-      "name": "T-shirt 4",
-      "price": 5300,
+      "image": "4.jpeg",
+      "name": "Adidas 4",
+      "price": 3200,
       "article": "T4"
     },
     {
-      "image": "5.jpg",
-      "name": "T-shirt 5",
+      "image": "5.jpeg",
+      "name": "Adidas 5",
       "price": 6500,
       "article": "T5"
     },
     {
       "image": "6.jpeg",
-      "name": "T-shirt 6",
+      "name": "Adidas 6",
       "price": 8700,
       "article": "T6"
     }
